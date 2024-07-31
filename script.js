@@ -1,3 +1,4 @@
-document.querySelector('form').addEventListener('submit', function(event) {
-    alert('Thank you for your message!');
+// scripts.js
+document.addEventListener('DOMContentLoaded', function() {
+    console.log('The page has fully loaded');
 });

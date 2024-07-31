@@ -12,20 +12,23 @@ header {
     text-align: center;
 }
 
-nav ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
+#hero {
+    text-align: center;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-nav ul li {
-    display: inline;
-    margin: 0 10px;
+#hero img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 50%;
 }
 
-nav ul li a {
-    color: white;
-    text-decoration: none;
+#hero h2 {
+    margin-top: 10px;
+    font-size: 1.5em;
+    color: #333;
 }
 
 section {
@@ -36,6 +39,33 @@ section {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
+section h2 {
+    text-align: center;
+    color: #333;
+}
+
+.album {
+    display: inline-block;
+    margin: 10px;
+    text-align: center;
+}
+
+.album img {
+    max-width: 150px;
+    height: auto;
+    border-radius: 5px;
+}
+
+#concerts ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#concerts li {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
 footer {
     text-align: center;
     padding: 10px 0;
@@ -44,14 +74,4 @@ footer {
     position: fixed;
     width: 100%;
     bottom: 0;
-}
-
-.album {
-    text-align: center;
-}
-
-.album img {
-    max-width: 100%;
-    height: auto;
-    border-radius: 5px;
 }
